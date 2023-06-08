@@ -31,18 +31,11 @@ app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT']='587'
 app.config['MAIL_USE_SSL']=True
 app.config['MAIL_USERNAME']="babai1998dey@gmail.com"
-app.config['MAIL_PASSWORD']="imasdsyppcvrbath"
+app.config['MAIL_PASSWORD']="yourid"
 app.config['MAIL_USE_SSL']=False
 app.config['MAIL_USE_TLS'] = True
 
-# app.config.update(
-#     MAIL_SERVER = 'smtp.gmail.com',#'smtp.googlemail.com',
-#     MAIL_PORT =  '465',#465,
-#     MAIL_USE_SSL = True,
-#     # MAIL_USE_TLS = True,
-#     MAIL_USERNAME = 'babai1998dey@gamil.com',   #params['gmail-usr'],
-#     MAIL_PASSWORD = 'imasdsyppcvrbath'#params['gmail-password']
-#     )
+
 
 
 mail =Mail(app)
